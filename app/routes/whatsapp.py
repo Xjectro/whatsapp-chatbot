@@ -2,7 +2,7 @@ from flask import Blueprint, request
 from twilio.rest import Client
 from app.config import Config
 from app.services.chatbot import generate_message
-from app.services.twillio import send_message
+from app.services.twilio import send_message
 
 bp = Blueprint("whatsapp", __name__)
 client = Client(Config.TWILIO_ACCOUNT_SID, Config.TWILIO_AUTH_TOKEN)
