@@ -42,8 +42,7 @@ POST https://<your_server_address>/whatsapp
 
 ## 🗂️ Project Structure
 - `app/`
-  - `__init__.py`       : Package initializer  
-  - `__main__.py`       : Application entry point  
+  - `__init__.py`       : Application entry point  
   - `config.py`         : Configuration variables  
   - `routes/`
     - `whatsapp.py`     : Webhook route  
