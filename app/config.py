@@ -5,7 +5,7 @@ load_dotenv()
 
 
 class Config:
-    TWILIO_ACCOUNT_SID = os.getenv("TWILIO_ACCOUNT_SID")
-    TWILIO_AUTH_TOKEN = os.getenv("TWILIO_AUTH_TOKEN")
-    TWILIO_FROM = os.getenv("TWILIO_FROM")
-    GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+    twilio_account_sid = os.getenv("TWILIO_ACCOUNT_SID")
+    twilio_auth_token = os.getenv("TWILIO_AUTH_TOKEN")
+    twilio_from = os.getenv("TWILIO_FROM")
+    gemini_api_key = os.getenv("GEMINI_API_KEY")
